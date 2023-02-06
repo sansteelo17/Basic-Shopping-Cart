@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Raleway:wght@600&display=swap');
+
+.icons {
+    transition: transform 150ms ease-in-out;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}
+
+.cart-icon {
+    margin-right: -0.5rem;
+    font-size: 1.2rem;
+}
+
+.total-quantity {
+    padding: 1px;
+}
+
+.total-quantity__text {
+    border-radius: 32px;
+    padding: 0 0.3rem;
+    font-size: 0.8rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.activeDropdown {
+    margin-left: 2.45rem;
+}
